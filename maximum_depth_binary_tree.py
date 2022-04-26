@@ -14,8 +14,6 @@ class Solution:
             return 0
     
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
-    
-        return max_depth
 
     def maxDepth_iterative_DFS(self, root):
         # track depth at each depth search
