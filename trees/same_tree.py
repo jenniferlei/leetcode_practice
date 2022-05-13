@@ -61,6 +61,3 @@ print(solution.same_tree(tree1, tree4))
 #   B   C        B   C
 #  / \          / \   \
 # D   E        D   E   F
-
-if __name__ == "__main__":
-    
